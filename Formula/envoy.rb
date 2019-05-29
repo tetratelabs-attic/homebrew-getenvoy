@@ -15,9 +15,19 @@
 class Envoy < Formula
     desc "Certified, compliant and conformant builds of Envoy proxy"
     homepage "https://getenvoy.io"
-    url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.10.0-dev-7ed6d21-4f3df0b-darwin-release-x86_64.tar.gz"
-    version "1.10.0-dev-7ed6d21-4f3df0b"
-    sha256 "53c33875b86043225c2bf00471b09af0c1c168f59755f8b60c998222cbf13df4"
+    url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.10.0-e95ef6b-8766a89-darwin-release-x86_64.tar.gz"
+    version "1.10.0"
+    sha256 "d8ad6971d01877be685f5bceac331ac1ed8e7259418c16759c10a378e9e8c718"
+
+    head do
+        url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.11.0-dev-47d3a52-8766a89-darwin-release-x86_64.tar.gz"
+        sha256 "74a0295ecf8036e12977a454a518105139b3eb076706ca4cdac4f8073f9ac46e"
+    end
+
+    stable do
+        url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.10.0-e95ef6b-8766a89-darwin-release-x86_64.tar.gz"
+        sha256 "d8ad6971d01877be685f5bceac331ac1ed8e7259418c16759c10a378e9e8c718"
+    end
 
     bottle :unneeded
 
@@ -27,6 +37,6 @@ class Envoy < Formula
 
     test do
         # TODO(dio): more tests, e.g. CVE tests.
-        assert_match /7ed6d2187df94c4cb96f7dccb8643bf764af2ccb/, %x('#{bin}/envoy --version')
+        assert_match /clean-getenvoy/, %x('#{bin}/envoy --version')
     end
 end
