@@ -15,18 +15,18 @@
 class Envoy < Formula
     desc "Certified, compliant and conformant builds of Envoy proxy"
     homepage "https://getenvoy.io"
-    url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.11.0-bf169f9-af8a2e7-darwin-release-x86_64.tar.gz"
-    version "1.11.0"
-    sha256 "b7f9efcdb15932cc5d3a581d1fbbe987548da66b9d582fc79af4ba46635a1ce7"
+    url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-1.11.1-e349fb6-930d4a5-darwin-release-x86_64.tar.gz"
+    version "1.11.1"
+    sha256 "3235bca94d1cb84354772045e77d02d27ab84be930e264b749c3889f7d9daccd"
 
     head do
-        url "https://tetrate.bintray.com/getenvoy%3Aplatform%3Adarwin/getenvoy-1.12.0-dev-74e3487-af8a2e7-darwin-release-x86_64.tar.gz"
-        sha256 "847ffbb57afc1283e13260cbe043b1721315da54a9504bfffb6c682d4ac22f4a"
+        url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-1.12.0-dev-f2129cb-930d4a5-darwin-release-x86_64.tar.gz"
+        sha256 "5df762a46460290443fcd680e104548fd5977fd92f987e7401a096c477891220"
     end
 
     stable do
-        url "https://tetrate.bintray.com/getenvoy-homebrew-tap/getenvoy-1.11.0-bf169f9-af8a2e7-darwin-release-x86_64.tar.gz"
-        sha256 "b7f9efcdb15932cc5d3a581d1fbbe987548da66b9d582fc79af4ba46635a1ce7"
+        url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-1.11.1-e349fb6-930d4a5-darwin-release-x86_64.tar.gz"
+        sha256 "3235bca94d1cb84354772045e77d02d27ab84be930e264b749c3889f7d9daccd"
     end
 
     bottle :unneeded
