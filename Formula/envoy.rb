@@ -20,8 +20,8 @@ class Envoy < Formula
     sha256 "d8529eba10f7e5038c5b937cb6bca720f1ef97cd666a7908cddbf2c25349bb40"
 
     head do
-        url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-1.12.0-dev-f2129cb-930d4a5-darwin-release-x86_64.tar.gz"
-        sha256 "5df762a46460290443fcd680e104548fd5977fd92f987e7401a096c477891220"
+        url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.12.0.dev.p518.g48c7c20-1p42.gb8451b1-darwin-release-x86_64.tar.xz"
+        sha256 "526e71c4f8a4cf1c195c01f8959702e522e5752f39bf8f05f5adf6ff2c07b6aa"
     end
 
     stable do
