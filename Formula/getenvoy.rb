@@ -2,16 +2,16 @@
 class Getenvoy < Formula
   desc "Distribute, deploy and operate a fleet of Envoys"
   homepage "https://github.com/tetratelabs/getenvoy"
-  version "0.1.6"
+  version "0.1.7"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.6/getenvoy_0.1.6_Darwin_x86_64.tar.gz"
-    sha256 "fc1ca078469d32881209cf719cf4bd3e300fe621fe09014bbcac6513dbe4245e"
+    url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.7/getenvoy_0.1.7_Darwin_x86_64.tar.gz"
+    sha256 "ba7ad00c7e44d2c76b2e5cef8c190fd3ed6255f80850ec71fb5058238eaff72f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.6/getenvoy_0.1.6_Linux_x86_64.tar.gz"
-      sha256 "09b724d7322315f6f3cf7939016dd6041885826dafcae78aac163fcd70b77624"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.7/getenvoy_0.1.7_Linux_x86_64.tar.gz"
+      sha256 "c0bdbbf99bd54a60cd6354e5630370ab6a721ea3f7179778d044aea35e84446b"
     end
   end
 
