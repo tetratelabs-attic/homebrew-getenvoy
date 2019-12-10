@@ -16,17 +16,17 @@ class Envoy < Formula
     desc "Certified, compliant and conformant builds of Envoy proxy"
     homepage "https://getenvoy.io"
     url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.12.2.p0.g55af249-1p50.g4bd7718-darwin-release-x86_64.tar.xz"
-    version "1.12.1"
-    sha256 "78222397007eb97670cdb9ca6d89fa77df7d4be2d7f6e856ff883ebfc8b65a77"
+    version "1.12.2"
+    sha256 "22973990c12b081692734012ad55ebc32f8cbda220e0a0a7d521b41f60f23e9f"
 
     head do
         url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.12.2.p0.g55af249-1p50.g4bd7718-darwin-release-x86_64.tar.xz"
-        sha256 "78222397007eb97670cdb9ca6d89fa77df7d4be2d7f6e856ff883ebfc8b65a77"
+        sha256 "22973990c12b081692734012ad55ebc32f8cbda220e0a0a7d521b41f60f23e9f"
     end
 
     stable do
         url "http://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.12.2.p0.g55af249-1p50.g4bd7718-darwin-release-x86_64.tar.xz"
-        sha256 "78222397007eb97670cdb9ca6d89fa77df7d4be2d7f6e856ff883ebfc8b65a77"
+        sha256 "22973990c12b081692734012ad55ebc32f8cbda220e0a0a7d521b41f60f23e9f"
     end
 
     bottle :unneeded
