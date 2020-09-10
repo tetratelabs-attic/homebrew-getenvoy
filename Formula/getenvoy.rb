@@ -6,12 +6,12 @@ class Getenvoy < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.8/getenvoy_0.1.8_Darwin_x86_64.tar.gz"
-    sha256 "2cdf46484b2ca443cf9f21fd8288e0851804c3770ff714551b2d6f87252f6fe8"
+    url "https://github.com/tetratelabs/getenvoy/releases/download/v0.2.0/getenvoy_0.2.0_Darwin_x86_64.tar.gz"
+    sha256 "f08438b83d3059862b50f2a91af6a38c2637433822c8fe2b6a12806d423f3087"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.1.8/getenvoy_0.1.8_Linux_x86_64.tar.gz"
-      sha256 "514e9e3db2d6110f41bd4417d6a7bbecea694619bdd88b3944738a5b1df6aa91"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.2.0/getenvoy_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "afc8fc25d0619f8d07d3cc45fa606bdeae93ef450f90366d1aba08508699b258"
     end
   end
 
