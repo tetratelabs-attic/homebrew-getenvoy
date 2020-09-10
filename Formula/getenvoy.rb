@@ -2,7 +2,7 @@
 class Getenvoy < Formula
   desc "Distribute, deploy and operate a fleet of Envoys"
   homepage "https://github.com/tetratelabs/getenvoy"
-  version "0.1.8"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
