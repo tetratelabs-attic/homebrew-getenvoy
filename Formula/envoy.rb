@@ -16,7 +16,7 @@ class Envoy < Formula
     desc "Certified, compliant and conformant builds of Envoy proxy"
     homepage "https://getenvoy.io"
     url "https://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.16.2.p0.ge98e41a-1p70.g486d4e2-darwin-release-x86_64.tar.xz"
-    version "1.16.1"
+    version "1.16.2"
     sha256 "94c03a659fe728a82fde4c010b1b4850753720cfbd5fefbe276e6033092efe99"
 
     head do
