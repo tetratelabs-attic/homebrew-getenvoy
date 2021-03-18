@@ -10,11 +10,11 @@ class Getenvoy < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/tetratelabs/getenvoy/releases/download/v0.2.1-rc1/getenvoy_0.2.1-rc1_Darwin_x86_64.tar.gz"
-    sha256 "1dd6342ae2868587861f171b8f7635cb657e76f5a768fd271c2fd693e245324c"
+    sha256 "3f38eebae1e2a2871e26f1f7034fc5977f7bfefd630c3ef238ecc83c9a557385"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/tetratelabs/getenvoy/releases/download/v0.2.1-rc1/getenvoy_0.2.1-rc1_Linux_x86_64.tar.gz"
-    sha256 "1282e5009ddc89a94ddcd4767313ab93f9a5f6be2951f8e2fa0e8f9bfdc422a1"
+    sha256 "d79007fd458910b20d8ae90c1ddee82fb6f145a1abf4f41b50bfd0dc9cd315a3"
   end
 
   def install
