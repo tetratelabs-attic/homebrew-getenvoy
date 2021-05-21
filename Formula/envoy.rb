@@ -1,4 +1,4 @@
-# Copyright 2019 Tetrate Labs
+# Copyright 2021 Tetrate Labs
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,17 +15,17 @@
 class Envoy < Formula
     desc "Certified, compliant and conformant builds of Envoy proxy"
     homepage "https://getenvoy.io"
-    url "https://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
+    url "https://dl.getenvoy.io/public/raw/files/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
     version "1.18.3"
     sha256 "7c8f645da0347de155b0d598b6bf2df6dc2cfaf80e1b30b2d508e77f69c47ac4"
 
     head do
-        url "https://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
+        url "https://dl.getenvoy.io/public/raw/files/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
         sha256 "7c8f645da0347de155b0d598b6bf2df6dc2cfaf80e1b30b2d508e77f69c47ac4"
     end
 
     stable do
-        url "https://dl.bintray.com/tetrate/getenvoy/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
+        url "https://dl.getenvoy.io/public/raw/files/getenvoy-envoy-1.18.3.p0.g98c1c9e-1p77.gb76c773-darwin-release-x86_64.tar.xz"
         sha256 "7c8f645da0347de155b0d598b6bf2df6dc2cfaf80e1b30b2d508e77f69c47ac4"
     end
 

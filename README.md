@@ -11,4 +11,4 @@ $ brew install tetratelabs/getenvoy/envoy
 
 ## License
 
-[Copyright 2019 Tetrate Labs](LICENSE).
+[Copyright 2021 Tetrate Labs](LICENSE).
