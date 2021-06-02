@@ -12,22 +12,22 @@ class Getenvoy < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_darwin_amd64.tar.gz"
-      sha256 "f2f0cf1c5d9dc1c351a7ac2b19f920d93ed472ab1c1d7568bedfb555335ecaeb"
+      sha256 "494f70aa09e5020d02c16b721eaa2efd231189743601ae559e783a8885d776da"
     end
     if Hardware::CPU.arm?
       url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_darwin_arm64.tar.gz"
-      sha256 "becd23a9d358b2dd3b9bb35fd287f3c14b4428d201b423610254f87e575b7085"
+      sha256 "bfc975c9c8907651965b26a96d7d00d0b853a6ad3396f4fa10d2add89b97ad4e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_linux_amd64.tar.gz"
-      sha256 "f976fdcc0fecdd3bef250f0e5ce2023e30201022170024c0f8dba8d1258feb2d"
+      sha256 "9bd883a301b93c5136bc5e8842350e304bdbcb4f78a804525f1a20bfd55cbc04"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_linux_arm64.tar.gz"
-      sha256 "bc78277a27b8151a09b980a4743794b77b8a21f5f1181db1f2e1667a0f3da6c3"
+      sha256 "746bdff52fdb20d23a1c0ebe1241b521270b86b39acb8c8cf53ce74986f29470"
     end
   end
 
