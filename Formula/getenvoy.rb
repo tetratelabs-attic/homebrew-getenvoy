@@ -5,29 +5,29 @@
 class Getenvoy < Formula
   desc "Install and run Envoy"
   homepage "https://github.com/tetratelabs/getenvoy"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_darwin_amd64.tar.gz"
-      sha256 "494f70aa09e5020d02c16b721eaa2efd231189743601ae559e783a8885d776da"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.1/getenvoy_0.3.1_darwin_amd64.tar.gz"
+      sha256 "769ca6e0a7e2628f5092016aebb70bae8ee69013d3f3027b82787c0041758970"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_darwin_arm64.tar.gz"
-      sha256 "bfc975c9c8907651965b26a96d7d00d0b853a6ad3396f4fa10d2add89b97ad4e"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.1/getenvoy_0.3.1_darwin_arm64.tar.gz"
+      sha256 "3955c290c5093d10a81fa57f78954500d2c80d001992f08e77aa778075a09009"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_linux_amd64.tar.gz"
-      sha256 "9bd883a301b93c5136bc5e8842350e304bdbcb4f78a804525f1a20bfd55cbc04"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.1/getenvoy_0.3.1_linux_amd64.tar.gz"
+      sha256 "3cc86e5d01e66692d5d7c6a704a91bca7ae4e8bfac5679fcbb843552c95a19e6"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.0/getenvoy_0.3.0_linux_arm64.tar.gz"
-      sha256 "746bdff52fdb20d23a1c0ebe1241b521270b86b39acb8c8cf53ce74986f29470"
+      url "https://github.com/tetratelabs/getenvoy/releases/download/v0.3.1/getenvoy_0.3.1_linux_arm64.tar.gz"
+      sha256 "5a8016b311bc6febd0cb8bfc1de9fea3cb5e5e71e844c9f9304e4dd6dba647c0"
     end
   end
 
