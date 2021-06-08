@@ -1,14 +1,4 @@
-# GetEnvoy Homebrew Tap
+# GetEnvoy Homebrew Tap Is Closed
 
-This repository contains a collection of Homebrew (aka, Brew) "formulae" for GetEnvoy.
-
-## Installing Envoy
-
-```
-$ brew tap tetratelabs/getenvoy
-$ brew install tetratelabs/getenvoy/envoy
-```
-
-## License
-
-[Copyright 2021 Tetrate Labs](LICENSE).
+This formula is deprecated for the official `brew install envoy`
+See https://github.com/Homebrew/homebrew-core/blob/master/Formula/envoy.rb
